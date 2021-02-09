@@ -1,0 +1,35 @@
+$(document).ready(function() {
+    $(document).on('click', '.dropdown-menu', function (e) {
+      e.stopPropagation();
+    });
+}); 
+$(document).ready(function(){
+   $("#ranger-blue").show();
+   $("#ranger-gray").hide();
+   $("#ranger-white").hide();
+   $("#ranger-black").hide();
+  $("#blue").click(function(){
+     $("#ranger-blue").show();
+     $("#ranger-gray").hide();
+     $("#ranger-white").hide();
+     $("#ranger-black").hide();
+  });
+  $("#gray").click(function(){
+     $("#ranger-blue").hide();
+     $("#ranger-gray").show();
+     $("#ranger-white").hide();
+     $("#ranger-black").hide();
+  });
+  $("#white").click(function(){
+     $("#ranger-blue").hide();
+     $("#ranger-gray").hide();
+     $("#ranger-white").show();
+     $("#ranger-black").hide();
+  });
+  $("#black").click(function(){
+     $("#ranger-blue").hide();
+     $("#ranger-gray").hide();
+     $("#ranger-white").hide();
+     $("#ranger-black").show();
+  });
+});

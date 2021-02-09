@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Landing Page</title>
+    <!--local CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.js"></script>
+</head>
+<body>
+	<!--local JS-->
+    <script type="text/javascript" src="js/script.js"></script>
+	<header id="header">
+		<nav id="nav-bar" class="navbar navbar-expand-lg" style="background-color: #FAFAFA">
+            <a id="logo" class="navbar-brand" href="index.html">
+            	<span class="text-dark">PICKUP</span> DEAL
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav">
+	                <li class="nav-item"> <a class="nav-link text-dark" href="#featured-car">Featured Vehicle </a> </li>
+	                <li class="nav-item dropdown has-megamenu">
+	                    <a class="nav-link dropdown-toggle text-dark" href="#" data-toggle="dropdown"> Vehicles  </a>
+	                    <div class="dropdown-menu megamenu">      
+		                    <div class="container">
+		                    	<div class="container-fluid">
+		                    		<div class="row car-list">
+		                    			<div class="col-sm-6">
+		                    				<img src="image/toyota-hilux.jpg"  class="img-fluid img-car"/>
+		                    			</div>
+		                    			<div class="col-sm-4">
+		                    				<div class="sub-nav">
+		                    					<h2>Toyota Hilux</h2>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Variants</a>
+		                    				    </div>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Exterior & Interior</a>
+		                    				    </div>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Features</a>
+		                    				    </div>
+		                    				</div>
+		                    			</div>
+		                    		</div>
+
+		                    		<div class="row car-list">
+		                    			<div class="col-sm-6">
+		                    				<img src="image/mitsubishi-Strada-Athlete.jpg"  class="img-fluid" />
+		                    			</div>
+		                    			<div class="col-sm-6">
+		                    				<div class="sub-nav">
+		                    					<h2>Mitsubishi Strada</h2>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Variants</a>
+		                    				    </div>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Exterior & Interior</a>
+		                    				    </div>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Features</a>
+		                    				    </div>
+		                    				</div>
+		                    			</div>
+		                    		</div>
+		                    		
+		                    		<div class="row car-list">
+		                    			<div class="col-sm-8">
+		                    				<img src="image/isuzu-d-max.jpg"  class="img-fluid" />
+		                    			</div>
+		                    			<div class="col-sm-4">
+		                    				<div class="sub-nav">
+		                    					<h2>Isuzu D-MAX</h2>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Variants</a>
+		                    				    </div>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Exterior & Interior</a>
+		                    				    </div>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Features</a>
+		                    				    </div>
+		                    				</div>
+		                    			</div>
+		                    		</div>
+
+		                    		<div class="row car-list">
+		                    			<div class="col-sm-8">
+		                    				<img src="image/nissan-navarra.png"  class="img-fluid" />
+		                    			</div>
+		                    			<div class="col-sm-4">
+		                    				<div class="sub-nav">
+		                    					<h2>Nissan Navarra</h2>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Variants</a>
+		                    				    </div>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Exterior & Interior</a>
+		                    				    </div>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Features</a>
+		                    				    </div>
+		                    				</div>
+		                    			</div>
+		                    		</div>
+
+		                    		<div class="row car-list">
+		                    			<div class="col-sm-7">
+		                    				<img src="image/ford-ranger.png"  class="img-fluid" />
+		                    			</div>
+		                    			<div class="col-sm-4">
+		                    				<div class="sub-nav">
+		                    					<h2>Ford Ranger</h2>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Variants</a>
+		                    				    </div>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Exterior & Interior</a>
+		                    				    </div>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Features</a>
+		                    				    </div>
+		                    				</div>
+		                    			</div>
+		                    		</div>
+
+		                    		<div class="row car-list">
+		                    			<div class="col-sm-7">
+		                    				<img src="image/chevrolet-colorado.jpg"  class="img-fluid" />
+		                    			</div>
+		                    			<div class="col-sm-4">
+		                    				<div class="sub-nav">
+		                    					<h2>Cheverolet Colorado</h2>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Variants</a>
+		                    				    </div>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Exterior & Interior</a>
+		                    				    </div>
+		                    				    <div class="sub-nav-link">
+		                    				    	<a class="sub-nav-item" href="#">Features</a>
+		                    				    </div>
+		                    				</div>
+		                    			</div>
+		                    		</div>
+		                    	</div>
+		                    </div>
+                        </div>
+	                </li>
+	                <li class="nav-item"><a class="nav-link text-dark" href="#pricing"> Pricing </a></li>
+	                <li class="nav-item"><a class="nav-link text-dark" href="#whats-new"> Whats New </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="featured-car" class="banner-container text-white">
+        <img src="image/Ford-Ranger-Raptor-4b.jpg" alt="Snow" style="width:100%;">
+        <div class="bottom-left">
+            <p class="banner-text-lg">Featured Car</p>
+            <p class="banner-text-sm">FORD RANGER RAPTOR</p>
+        </div>
+    </div>
+    <div class="container my-5">
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-md">
+    				<iframe id="video" style="width: 100%;" height="360" src="https://www.youtube.com/embed/U94wDbctu1U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    			</div>
+    			<div class="col-md">
+    				<p class="banner-text-lg" style="font-size: 36pt;">Born ready to go</p>
+    				<p>
+    					Combining the tough DNA of Ford Performance to be ready to handle the brutality of all road conditions, the Ford Ranger Raptor is a high-build off-road pickup truck. Direct from the factory With the power of innovation from the 2.0 liter twin turbo engine with automatic transmission 10 Speed ​​that is ready to take the Ranger Raptor to the next level of toughness.
+    				</p>
+    				<div class="row may-5">
+    					<div class="col-sm-3">
+    						<div class="spec">
+    							<img src="image/engine.svg" style="width: 50%;">
+    							<p class="spec-text my-3">2.0 Bi-Turbo Diesel</p>
+    						</div>
+    					</div>
+    					<div class="col-sm-3">
+    						<div class="spec">
+    							<img src="image/manual-transmission.svg" style="width: 50%;">
+    							<p class="spec-text my-3">10 Speed A/T</p>
+    						</div>
+    					</div>
+    					<div class="col-sm-3">
+    						<div class="spec">
+    							<img src="image/lightning.svg" style="width: 50%;">
+    							<p class="spec-text my-3">210hp and 500mn Torque</p>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <img class="img-fluid" src="image/banner-ranger.jpg">
+    <div id="pricing" class="container my-5">
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-md-6 my-5">
+    				<h1>Price PHP 1,998,000</h1>
+    				<p>
+    					Ranger Raptor comes factory-ready with everything you need to tackle the toughest off-road environments. No modifications necessary.
+    				</p>
+    				<div class="color-container">
+    					<i id="blue" class="fas fa-circle color-item" style="color: #00679C;"></i>
+    					<i id="gray" class="fas fa-circle color-item" style="color: #656866;"></i>
+    					<i id="white" class="fas fa-circle color-item" style="color: #D3D8D7;"></i>
+    					<i id="black" class="fas fa-circle color-item" style="color: #232225;"></i>
+    				</div>
+    			</div>
+    			<div class="col-md-6">
+    				<img id="ranger-blue" class="img-fluid" src="image/ford-ranger-raptor-blue-lightning.webp">
+    				<img id="ranger-gray" class="img-fluid" src="image/ford-ranger-raptor-conquer-gray.webp">
+    				<img id="ranger-white" class="img-fluid" src="image/ford-ranger-raptor-arctic-white.webp">
+                    <img id="ranger-black" class="img-fluid" src="image/ford-ranger-raptor-absolute-black.webp">
+    			</div>
+    		</div>
+    	</div>
+    	<div class="container-fluid my-5" style="text-align: center;">
+    		<p class="banner-text-sm" style="font-weight: 400;">MORE PICKUP TRUCKS</p>
+    		<p class="banner-text-lg" style="font-weight: 500;">You Might Also Like</p>
+    		<div class="row my-5">
+    			<div class="col-sm-4 car-list">
+    			    <div class="container">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="image/isuzu-d-max.jpg" class="img-fluid" />
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">ISUZU D-MAX</a></h5>
+                            <p class="card-text">
+                                P857,000 – P1,795,000
+                            </p>
+                        </div>
+                    </div>
+    			</div>
+    			<div class="col-sm-4 car-list">
+    			    <div class="container">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="image/toyota-hilux.jpg" class="img-fluid" />
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">TOYOTA HILUX</a></h5>
+                            <p class="card-text">
+                                P843,000 – P1,850,000
+                            </p>
+                        </div>
+                    </div>
+    			</div>
+    			<div class="col-sm-4 car-list">
+    			    <div class="container">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="image/mitsubishi-Strada-Athlete.jpg" class="img-fluid" />
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#">MITSUBISHI STRADA</a></h5>
+                            <p class="card-text">
+                                P815,000 – P1,760,000
+                            </p>
+                        </div>
+                    </div>
+    			</div>
+    			<div class="col-sm-6 car-list">
+    			    <div class="container">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="image/nissan-navarra.png" class="img-fluid" />
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">NISSAN NAVARRA</a></h5>
+                            <p class="card-text">
+                                P929,000 – P1,635,000
+                            </p>
+                        </div>
+                    </div>
+    			</div>
+    			<div class="col-sm-6 car-list">
+    			    <div class="container">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="image/chevrolet-colorado.jpg" class="img-fluid" />
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#">CHEVEROLET COLORADO</a></h5>
+                            <p class="card-text">
+                                P1,199,888 – P1,638,888
+                            </p>
+                        </div>
+                    </div>
+    			</div>
+    		</div>
+    	</div>
+    	<div id="whats-new" class="row">
+    		<div class="col-sm-6">
+    			<img src="image/new.jpg" class="img-fluid" />
+    		</div>
+    		<div class="col-sm-6">
+    			<div class="container-fluid">
+    				<p class="banner-text-lg" style="font-weight: 500;">WHATS NEW</p>
+    				<p class="banner-text-sm" style="font-weight: 400;">
+    					Mark your calendars: Isuzu PH is launching the new D-Max on March 4
+    				</p>
+    				<p class="h4 my-5" style="font-weight: 300;">
+    					Ready for what 2021 has in store for you? Let Isuzu take you Into New Heights.
+                        Register now <a href="https://www.isuzuphil.com/products/d-max">https://www.isuzuphil.com/products/d-max</a>
+    				</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <footer id="form" class="text-center text-lg-start text-white" style="background-color: #1B394E;">
+        <div class="container p-4 pb-0">
+            <form action="https://www.freecodecamp.com/email-submit">
+                <div class="row">
+                    <div class="col-auto mb-4 mb-md-0">
+                        <p class="pt-2"><strong>Send your Email</strong></p>
+                    </div>
+                    <div class="col-md-5 col-12 mb-4 mb-md-0">
+                        <div class="form-outline mb-4">
+                            <input id="email" type="email" class="form-control" placeholder="Email address" />
+                        </div>
+                    </div>
+                    <div class="col-auto mb-4 mb-md-0">
+                        <button id="submit" type="submit" class="btn btn-primary mb-4">Subscribe</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+</footer>
+</body>
+</html>

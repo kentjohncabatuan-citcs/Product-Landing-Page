@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+html{
+	scroll-behavior: smooth;
+}
+#logo{
+	color: #00679C;
+	font-weight: 800;
+	font-size: 20pt;
+	padding: 20px;
+	padding-left: 100px;
+}
+.nav-link{
+	font-weight: 700;
+}
+.nav-item{
+	padding-left: 30px;
+}
+.sub-nav{
+	font-weight: bold;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.sub-nav-link{
+	line-height: 0.5;
+}
+.sub-nav-item{
+	font-weight: 700;
+}
+.banner-container {
+	font-family: 'Montserrat', sans-serif;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bottom-left {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner-text-sm{
+    font-weight: 700;
+	font-size: 26pt;
+}
+.banner-text-lg{
+	font-size: 46pt;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.spec{
+	text-align: center;
+	font-size: 9pt;
+}
+.spec-text{
+	line-height: 1;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.color-item{
+	cursor: pointer;
+	font-size: 24pt;
+	padding: 10px;
+}
+.car-list{
+	transition: transform .2s;
+}
+.car-list:hover{
+	-ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
+}
+@media all and (min-width: 992px) {
+	.navbar{ padding-top: 0; padding-bottom: 0; }
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; padding:20px;  }
+	.navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
+}
+@media only screen and (max-width: 600px) {
+  .nav-item,#logo{
+	padding-left: 10px;
+  }
+  .color-container{
+  	text-align: center;
+  }
+  .prev, .next,.text {font-size: 11px}
+}
